@@ -1,6 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './index.scss';
+import { Chip } from '@mui/material';
 
 const Projects = () => {
     return (
@@ -17,6 +18,7 @@ const Projects = () => {
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 // icon={<WorkIcon />}
             >
+                <Chip className='project-technology' label="ReactJS" size='small'/>
                 <h3 className="vertical-timeline-element-title">My Portfolio</h3>
                 <h4 className="vertical-timeline-element-subtitle">York, UK</h4>
                 <p>
@@ -32,7 +34,13 @@ const Projects = () => {
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 // icon={<WorkIcon />}
             >
+                {
+                    ['.NET', 'C#', 'Ruby', 'Docker', 'Kubernetes', 'Terraform', 'AWS', 'GitLab', 'RabbitMQ'].map((tech, i) => (
+                        <Chip key={i} label={tech} className='project-technology' size='small'/>
+                    ))
+                }
                 <h3 className="vertical-timeline-element-title">Holiday Booking Back Office System</h3>
+                <h4 className="vertical-timeline-element-subtitle">On The Beach Ltd.</h4>
                 <h4 className="vertical-timeline-element-subtitle">York, UK</h4>
                 <p>
                     - Enhanced back office system resulting in reduced time to resolution
@@ -49,9 +57,15 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 date="Jan 2020 - Aug 2020"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<WorkIcon />}
+                // icon={<TCSLogo />}
             >
+                {
+                    ['.NET', 'C#', 'Microsoft Silverlight', 'WPF'].map((tech, i) => (
+                        <Chip key={i} label={tech} className='project-technology' size='small'/>
+                    ))
+                }
                 <h3 className="vertical-timeline-element-title">Energy Bidding System</h3>
+                <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services Ltd</h4>
                 <h4 className="vertical-timeline-element-subtitle">Kochi, India</h4>
                 <p>
                     - Enhanced the energy bidding web application for a leading Australian power generation company, aligning it with the latest AEMO regulations
@@ -66,7 +80,13 @@ const Projects = () => {
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 // icon={<WorkIcon />}
             >
+                {
+                    ['ASP.NET', 'VB', 'MS SQL', 'WPF'].map((tech, i) => (
+                        <Chip key={i} label={tech} className='project-technology' size='small'/>
+                    ))
+                }
                 <h3 className="vertical-timeline-element-title">Resource Utilisation Monitoring System</h3>
+                <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services Ltd</h4>
                 <h4 className="vertical-timeline-element-subtitle">Kochi, India</h4>
                 <p>
                     - Enhanced a web application designed to oversee project management and optimize resource allocation for a prominent North American gas and electricity enterprise.
@@ -78,7 +98,13 @@ const Projects = () => {
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                 // icon={<SchoolIcon />}
             >
+                {
+                    ['.NET', 'C#', 'WCF', 'Entity Framework', 'LINQ', 'Oracle', 'TFS', 'Waterfall'].map((tech, i) => (
+                        <Chip key={i} label={tech} className='project-technology' size='small'/>
+                    ))
+                }
                 <h3 className="vertical-timeline-element-title">Contract Management System</h3>
+                <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services Ltd</h4>
                 <h4 className="vertical-timeline-element-subtitle">Kochi, India</h4>
                 <p>
                     - Designed and developed contract management web applications for Canada's largest natural gas storage, transmission and distribution company
