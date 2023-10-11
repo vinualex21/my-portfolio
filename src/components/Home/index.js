@@ -8,7 +8,7 @@ const Home = () => {
         <div className="contianer home-page">
             <div className="text-zone">
                 <h1>Vinu Alex Varghese</h1>
-                <h2>Backend Developer</h2>
+                <h2>Software Engineer</h2>
                 <p>
                     Experienced Software Engineer with a proven track record of six years specializing in the development of robust backend solutions tailored to meet complex business needs. 
                 </p>

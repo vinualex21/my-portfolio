@@ -8,16 +8,16 @@ import { Link, NavLink } from 'react-router-dom'
 const Sidebar = () => {
     return (
         <div className='nav-bar'>
-            <Link className='logo' to='/'>
+            {/* <Link className='logo' to='/'>
                 <img src={LogoV} alt="logo" />
-            </Link>
+            </Link> */}
             <nav>
                 <NavLink exact="true" activeclassname="active" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+                {/* <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-                </NavLink>
+                </NavLink> */}
                 <NavLink exact="true" activeclassname="active" className="experience-link" to="/experience">
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
                 </NavLink>

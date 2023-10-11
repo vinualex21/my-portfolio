@@ -2,6 +2,8 @@ import { useRef } from 'react'
 import './index.scss'
 import Loader from 'react-loaders'
 import emailjs from '@emailjs/browser'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFaceGrinWink } from '@fortawesome/free-regular-svg-icons'
 
 const Contact = () => {
     const refForm = useRef()
@@ -31,7 +33,8 @@ const Contact = () => {
                             Contact Me
                         </h1>
                         <p>
-                            {"Have you got an interesting opportunity for me? Make me an offer I can't refuse ;-)"}
+                            {"Have you got an interesting opportunity for me? Make me an offer I can't refuse "}
+                            <FontAwesomeIcon icon={faFaceGrinWink} />
                         </p>
                     </div>
                     <div className='contact-form'>
