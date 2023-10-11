@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c6124497.css",
-    "main.js": "/my-portfolio/static/js/main.be409ca4.js",
+    "main.css": "/my-portfolio/static/css/main.06d3ed8d.css",
+    "main.js": "/my-portfolio/static/js/main.fec63e5a.js",
     "static/js/787.0bfccc2a.chunk.js": "/my-portfolio/static/js/787.0bfccc2a.chunk.js",
+    "static/media/photo1.jpg": "/my-portfolio/static/media/photo1.4c7cc1fbc6c1be7cbf24.jpg",
     "static/media/CoolveticaRg-Regular.woff2": "/my-portfolio/static/media/CoolveticaRg-Regular.20ae07bacf5ea60d090f.woff2",
     "static/media/CoolveticaRg-Regular.woff": "/my-portfolio/static/media/CoolveticaRg-Regular.e47383c52083fe6fbe0f.woff",
     "static/media/LaBelleAurore.woff2": "/my-portfolio/static/media/LaBelleAurore.72106a8560bf520e14a0.woff2",
@@ -10,12 +11,12 @@
     "static/media/helvetica-neu.ttf": "/my-portfolio/static/media/helvetica-neu.89491001810088119bef.ttf",
     "static/media/logo-v.png": "/my-portfolio/static/media/logo-v.778216afeb52ea6f420d.png",
     "index.html": "/my-portfolio/index.html",
-    "main.c6124497.css.map": "/my-portfolio/static/css/main.c6124497.css.map",
-    "main.be409ca4.js.map": "/my-portfolio/static/js/main.be409ca4.js.map",
+    "main.06d3ed8d.css.map": "/my-portfolio/static/css/main.06d3ed8d.css.map",
+    "main.fec63e5a.js.map": "/my-portfolio/static/js/main.fec63e5a.js.map",
     "787.0bfccc2a.chunk.js.map": "/my-portfolio/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6124497.css",
-    "static/js/main.be409ca4.js"
+    "static/css/main.06d3ed8d.css",
+    "static/js/main.fec63e5a.js"
   ]
 }
