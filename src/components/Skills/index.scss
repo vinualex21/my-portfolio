@@ -1,0 +1,43 @@
+.skills-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+    h1 {
+        color: #ffd700;
+        font-size: 56px;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.skill-card {
+    margin: 3% 3% 3% 3%;
+    width: 20%;
+    height: 250px;
+}
+
+.skill-card-content {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+
+.skill-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.skill-item {
+    margin: 3px;
+}
