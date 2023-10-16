@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Layout from './components/Layout';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Skillset from './components/Skillset';
 import {Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
+          {/* <Route path="/skills" element={<Skills />} /> */}
+          <Route path="/skillset" element={<Skillset />} />
         </Route>
       </Routes>
     </>

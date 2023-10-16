@@ -1,8 +1,9 @@
 .nav-bar {
     background: #181818;
-    width: 80px;
+    width: 6vw;
     height: 100vh;
     position: fixed;
+    flex: 0 0 auto;
     top: 0;
     z-index: 3;
     min-height: 500px;
@@ -60,7 +61,7 @@ nav {
 
     &:after {
       content: '';
-      font-size: 9px;
+      font-size: 0.6vw;
       letter-spacing: 2px;
       position: absolute;
       bottom: 0;
@@ -100,6 +101,18 @@ nav {
   a.contact-link {
     &:after {
       content: 'CONTACT';
+    }
+  }
+
+  a.skills-link {
+    &:after {
+      content: 'SKILLS';
+    }
+  }
+
+  a.skillset-link {
+    &:after {
+      content: 'SKILLSET';
     }
   }
 
