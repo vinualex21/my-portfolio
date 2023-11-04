@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.0e5d2289.css",
-    "main.js": "/my-portfolio/static/js/main.43d50e69.js",
+    "main.css": "/my-portfolio/static/css/main.1d53eaf0.css",
+    "main.js": "/my-portfolio/static/js/main.96557aa3.js",
     "static/js/787.0bfccc2a.chunk.js": "/my-portfolio/static/js/787.0bfccc2a.chunk.js",
     "static/media/photo1.jpg": "/my-portfolio/static/media/photo1.4c7cc1fbc6c1be7cbf24.jpg",
     "static/media/ruby-logo.png": "/my-portfolio/static/media/ruby-logo.f4acf84ed3ea044805e2.png",
@@ -34,12 +34,12 @@
     "static/media/notion-logo.svg": "/my-portfolio/static/media/notion-logo.18259d2f359cb09fa44ec94ddc0c6fce.svg",
     "static/media/dotnet-logo.svg": "/my-portfolio/static/media/dotnet-logo.b4a1f214e0667e233ce63e039e7066ca.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.0e5d2289.css.map": "/my-portfolio/static/css/main.0e5d2289.css.map",
-    "main.43d50e69.js.map": "/my-portfolio/static/js/main.43d50e69.js.map",
+    "main.1d53eaf0.css.map": "/my-portfolio/static/css/main.1d53eaf0.css.map",
+    "main.96557aa3.js.map": "/my-portfolio/static/js/main.96557aa3.js.map",
     "787.0bfccc2a.chunk.js.map": "/my-portfolio/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e5d2289.css",
-    "static/js/main.43d50e69.js"
+    "static/css/main.1d53eaf0.css",
+    "static/js/main.96557aa3.js"
   ]
 }
