@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFaceGrinWink } from '@fortawesome/free-regular-svg-icons'
 
 const Contact = () => {
-    const refForm = useRef()
+    const refForm = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
