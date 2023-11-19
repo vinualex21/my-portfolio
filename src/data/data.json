@@ -1,0 +1,81 @@
+{
+  "skills": [
+    {
+      "category": "Frontend",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "React.js"
+      ]
+    },
+    {
+      "category": "Backend",
+      "technologies": [
+        ".NET",
+        "C#",
+        "WCF",
+        "LINQ",
+        "Entity Framework",
+        "WPF",
+        "Ruby",
+        "REST APIs",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "category": "Database",
+      "technologies": [
+        "MySQL",
+        "Oracle",
+        "MSSQL"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "technologies": [
+        "Kuberetes",
+        "Terraform",
+        "AWS"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "technologies": [
+        "Visual Studio",
+        "VS Code",
+        "MySQL Workbench",
+        "Oracle SQL Developer",
+        "SQL Server Management Studio"
+      ]
+    },
+    {
+      "category": "Project Management & Collaboration",
+      "technologies": [
+        "Git",
+        "GitLab",
+        "TFS",
+        "Miro",
+        "Jira",
+        "Shortcut",
+        "Notion",
+        "MS Office"
+      ]
+    },
+    {
+      "category": "Software Development Methodologies",
+      "technologies": [
+        "Agile (Scrum, Kanban)",
+        "Waterfall",
+        "TDD",
+        "BDD"
+      ]
+    },
+    {
+      "category": "Monitoring & Performance Tools",
+      "technologies": [
+        "New Relic",
+        "AWS CloudWatch"
+      ]
+    }
+  ]
+}

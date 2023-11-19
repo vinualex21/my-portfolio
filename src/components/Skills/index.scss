@@ -27,9 +27,12 @@
 }
 
 .skill-card-content {
+    color: azure;
+}
+
+.skill-card-item {
     display: flex;
     flex-wrap: wrap;
-    color: azure;
 }
 
 .skill-tag {
@@ -40,11 +43,13 @@
     letter-spacing: 1px;
 }
 
-.skill-logo {
-    width: 60px;
-    height: 60px;
-}
+@media screen and (max-width: 600px) {
+    .skills-container {
+        flex-direction: column;
+    }
 
-.skill-item {
-    margin: 3px;
+    .skill-card {
+        margin: 2% 3%;
+        width: auto;
+    }
 }
