@@ -14,9 +14,12 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 date="Oct 2023 - present"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<WorkIcon />}
             >
-                <Chip className='project-technology' label="ReactJS" size='small'/>
+                {
+                    ['React.js', 'JSX', 'HTML', 'CSS'].map((tech, i) => (
+                        <Chip key={i} label={tech} className='project-technology' size='small'/>
+                    ))
+                }
                 <h3 className="vertical-timeline-element-title">My Portfolio</h3>
                 <h4 className="vertical-timeline-element-subtitle">York, UK</h4>
                 <p>
@@ -30,7 +33,6 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 date="Sep 2022 - Sep 2023"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<WorkIcon />}
             >
                 {
                     ['.NET', 'C#', 'Ruby', 'Docker', 'Kubernetes', 'Terraform', 'AWS', 'GitLab', 'RabbitMQ'].map((tech, i) => (
@@ -55,7 +57,6 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 date="Jan 2020 - Aug 2020"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<TCSLogo />}
             >
                 {
                     ['.NET', 'C#', 'Microsoft Silverlight', 'WPF'].map((tech, i) => (
@@ -76,10 +77,9 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 date="Sep 2019 - Dec 2019"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<WorkIcon />}
             >
                 {
-                    ['ASP.NET', 'VB', 'MS SQL', 'WPF'].map((tech, i) => (
+                    ['ASP.NET', 'VB', 'MS SQL'].map((tech, i) => (
                         <Chip key={i} label={tech} className='project-technology' size='small'/>
                     ))
                 }
@@ -94,7 +94,6 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 date="Dec 2015 – Aug 2019"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<SchoolIcon />}
             >
                 {
                     ['.NET', 'C#', 'WCF', 'Entity Framework', 'LINQ', 'Oracle', 'TFS', 'Waterfall'].map((tech, i) => (
@@ -107,10 +106,15 @@ const Projects = () => {
                 <p>
                     - Designed and developed contract management web applications for Canada's largest natural gas storage, transmission and distribution company
                 </p>
+                <p>
+                    - Developed WCF services for contract management, integrated with <i>K2 Blackpearl</i> UI tool for handling complex workflows
+                </p>
+                <p>
+                    - Integrated with <i>EngageOne</i> tool for document generation
+                </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                // icon={<StarIcon />}
             />
         </VerticalTimeline>
         </>
