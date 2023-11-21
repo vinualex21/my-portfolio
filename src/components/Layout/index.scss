@@ -7,3 +7,10 @@
   height: 100%;
   margin-left: 6vw;
 }
+
+@media screen and (max-width: 480px) {
+  .page {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+}

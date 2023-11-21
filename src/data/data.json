@@ -1,4 +1,183 @@
 {
+  "experience": [
+    {
+      "title": "Software Engineer - III",
+      "type": "work",
+      "organization": "On The Beach Ltd.",
+      "location": "York, UK",
+      "start_date": "Sep 2022",
+      "end_date": "Sep 2023",
+      "details": [
+        "Improved Customer Booking Service team efficiency through backend solutions resulting in reduced resolution time and increased revenue",
+        "Reduced cloud expenditure by strategically optimizing AWS infrastructure leveraging the power of Application Performance Management (APM) tools",
+        "As Scrum Master, leveraged agile KPI and DORA metrics to drive transformative enhancements in operational efficiency while optimizing the team's workflows"
+      ]
+    },
+    {
+      "title": "Master of Science - Embedded Wireless Systems",
+      "type": "education",
+      "organization": "University of York",
+      "location": "York, UK",
+      "start_date": "Sep 2020",
+      "end_date": "Sep 2021",
+      "details": [
+        "Project: IoT-based smart street light system",
+        "Embedded C, Personal Effectiveness and Masterclass, Enterprise, Marketing and Management of Technology, Research Methods"
+      ]
+    },
+    {
+      "title": "IT Analyst",
+      "type": "work",
+      "organization": "Tata Consultancy Services Ltd",
+      "location": "Kochi, India",
+      "start_date": "Jun 2019",
+      "end_date": "Aug 2020",
+      "details": [
+        "Enhanced the energy bidding web application for a leading Australian power generation company, aligning it with the latest AEMO regulations",
+        "Strengthened the organisation's Australian market by securing subsequent projects from the client as a result of successful pilot project delivery",
+        "Analyzed, and estimated project risks while developing comprehensive mitigation plans. Executed mock drills to ensure seamless business continuity, a vital asset that proved invaluable during the challenges posed by the COVID-19 pandemic"
+      ]
+    },
+    {
+      "title": "Systems Engineer",
+      "type": "work",
+      "organization": "Tata Consultancy Services Ltd",
+      "location": "Kochi, India",
+      "start_date": "May 2017",
+      "end_date": "May 2019",
+      "details": [
+        "Designed and developed contract management web applications for Canada's largest natural gas storage, transmission and distribution company",
+        "Seamless collaboration with diverse cross-functional teams spanning the entire technology stack",
+        "Mentored junior developers, nurturing their professional growth and development, while also guiding test engineers in transitioning into development roles"
+      ]
+    },
+    {
+      "title": "Assistant System Engineer",
+      "type": "work",
+      "organization": "Tata Consultancy Services Ltd",
+      "location": "Kochi, India",
+      "start_date": "Dec 2015",
+      "end_date": "Apr 2017",
+      "details": [
+        "Collaborated with stakeholders and prepared functional specification documents",
+        "Designed detailed technical specification documents",
+        "Developed batch jobs for complex workflows"
+      ]
+    },
+    {
+      "title": "Bachelor of Technology - Electronics & Communication Engineering",
+      "type": "education",
+      "organization": "Cochin University of Science and Technology",
+      "location": "Kochi, India",
+      "start_date": "Aug 2011",
+      "end_date": "May 2015",
+      "details": [
+        "Project: Voice based navigation system for the visually challenged",
+        "C Programming, Engineering Mathematics, Computer Communication and Networks, Digital and Analog Communication, Signals and Systems, Digital System Design"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio",
+      "company": "Personal Project",
+      "location": "York, UK",
+      "start_date": "Oct 2023",
+      "end_date": "Nov 2023",
+      "details": [
+        "React app to showcase my skills and expertise",
+        "First project using React"
+      ],
+      "technologies": [
+        "React.js",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Holiday Booking Back Office System",
+      "company": "On The Beach Ltd.",
+      "location": "York, UK",
+      "start_date": "Sep 2022",
+      "end_date": "Sep 2023",
+      "details": [
+        "Enhanced back office system resulting in reduced time to resolution",
+        "Developed capability to take in early bookings that put the company ahead of its competitors",
+        "Reduced cloud expenditure by strategically optimizing AWS infrastructure leveraging the power of Application Performance Management (APM) tools",
+        "Built REST API and integrated with back office application to manage holiday bookings based on customer contact status",
+        "Built feature to send automated notifications to customers on failed initial payment and subsequent reminders resulting in reducing bookings lost and increasing revenue"
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "Ruby",
+        "Docker",
+        "Kuberetes",
+        "Terraform",
+        "AWS",
+        "GitLab",
+        "RabbitMQ",
+        "Agile (Scrum, Kanban)"
+      ]
+    },
+    {
+      "name": "Energy Bidding System",
+      "company": "Tata Consultancy Services Ltd",
+      "location": "Kochi, India",
+      "start_date": "Jan 2020",
+      "end_date": "Aug 2020",
+      "details": [
+        "Enhanced the energy bidding web application for a leading Australian power generation company, aligning it with the latest AEMO regulations",
+        "Converted the Microsoft Silverlight application to WPF"
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "Microsoft Silverlight",
+        "WPF",
+        "Scrum"
+      ]
+    },
+    {
+      "name": "Resource Utilisation Monitoring System",
+      "company": "Tata Consultancy Services Ltd",
+      "location": "Kochi, India",
+      "start_date": "Sep 2019",
+      "end_date": "Dec 2019",
+      "details": [
+        "Enhanced a web application designed to oversee project management and optimize resource allocation for a prominent North American gas and electricity enterprise"
+      ],
+      "technologies": [
+        "ASP.NET",
+        "VB",
+        "MSSQL"
+      ]
+    },
+    {
+      "name": "Contract Management System",
+      "company": "Tata Consultancy Services Ltd",
+      "location": "Kochi, India",
+      "start_date": "Dec 2015",
+      "end_date": "Aug 2019",
+      "details": [
+        "Designed and developed contract management web applications for Canada's largest natural gas storage, transmission and distribution company",
+        "3-layer SOA architecture",
+        "WCF services exposed to integrate with K2 Blackpearl UI tool",
+        "Domain layer to handle domain logic",
+        "Infrastructure layer integration with EngageOne for document generation and FICO Blaze Advisor for business rules"
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "WCF",
+        "Entity Framework",
+        "LINQ",
+        "Oracle",
+        "TFS",
+        "Waterfall"
+      ]
+    }
+  ],
   "skills": [
     {
       "category": "Frontend",
@@ -19,6 +198,7 @@
         "WPF",
         "Ruby",
         "REST APIs",
+        "SOAP APIs",
         "RabbitMQ"
       ]
     },
