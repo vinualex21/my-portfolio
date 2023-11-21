@@ -1,16 +1,12 @@
 import './index.scss'
-import LogoV from '../../assets/images/logo-v.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser, faLaptopCode, faBriefcase, faGear } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
         <div className='nav-bar'>
-            {/* <Link className='logo' to='/'>
-                <img src={LogoV} alt="logo" />
-            </Link> */}
             <nav>
                 <NavLink exact="true" activeclassname="active" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
