@@ -16,6 +16,7 @@
     list-style: none;
     align-items: center;
     padding: 0;
+    margin-left: 10%;
 
     li {
       a {
@@ -24,6 +25,11 @@
         font-size: 15px;
         line-height: 16px;
         color: #4d4d4e;
+        font-size: 22px;
+      }
+
+      .anchor-icon {
+        color:#5184a0;
       }
 
       &:hover {
@@ -160,6 +166,14 @@ nav {
   .nav-bar ul li a{
     margin: 0;
     padding-right: 10px;
+  }
+
+  .nav-bar ul li a {
+    &:hover {
+      .anchor-icon {
+        color: #5184a0;
+      }
+    }
   }
 
   nav { 
