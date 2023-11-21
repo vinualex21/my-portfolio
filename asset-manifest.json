@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4f9c5972.css",
-    "main.js": "/my-portfolio/static/js/main.d66cc05d.js",
+    "main.css": "/my-portfolio/static/css/main.3bcd0660.css",
+    "main.js": "/my-portfolio/static/js/main.f3a68380.js",
     "static/js/787.0bfccc2a.chunk.js": "/my-portfolio/static/js/787.0bfccc2a.chunk.js",
-    "static/media/photo1.jpg": "/my-portfolio/static/media/photo1.4c7cc1fbc6c1be7cbf24.jpg",
+    "static/media/profile-photo.jpg": "/my-portfolio/static/media/profile-photo.db337c9b9487ee331ad3.jpg",
     "static/media/ruby-logo.png": "/my-portfolio/static/media/ruby-logo.f4acf84ed3ea044805e2.png",
     "static/media/kubernetes-logo.png": "/my-portfolio/static/media/kubernetes-logo.052eeea9ddfff9070dad.png",
     "static/media/CoolveticaRg-Regular.woff2": "/my-portfolio/static/media/CoolveticaRg-Regular.20ae07bacf5ea60d090f.woff2",
@@ -23,23 +23,22 @@
     "static/media/mysql-workbench-logo.png": "/my-portfolio/static/media/mysql-workbench-logo.c3f3658c9c8a261d0f5c.png",
     "static/media/csharp-logo.png": "/my-portfolio/static/media/csharp-logo.509c1a4773a41d73a664.png",
     "static/media/sql-server-mgt-studio-logo.png": "/my-portfolio/static/media/sql-server-mgt-studio-logo.5aae029f5a9ae6f69da5.png",
-    "static/media/logo-v.png": "/my-portfolio/static/media/logo-v.778216afeb52ea6f420d.png",
     "static/media/aws-logo.png": "/my-portfolio/static/media/aws-logo.dfdc5cfed56f981dfa78.png",
     "static/media/amazon_cloudwatch.svg": "/my-portfolio/static/media/amazon_cloudwatch.920fd270851f765b27391acf5b8f04c2.svg",
-    "static/media/shortcut-logo.svg": "/my-portfolio/static/media/shortcut-logo.9122da7401fa605e8ea39794c91e3515.svg",
-    "static/media/jira-logo.svg": "/my-portfolio/static/media/jira-logo.b7994c8e1ca3e0ed59a397c8a7cfb818.svg",
+    "static/media/shortcut-logo.svg": "/my-portfolio/static/media/shortcut-logo.e1ac94f75e283ae458aecac9d585c12a.svg",
+    "static/media/jira-logo.svg": "/my-portfolio/static/media/jira-logo.bac305e050e360a91d6bda5c451e92c0.svg",
     "static/media/new_relic_logo.svg": "/my-portfolio/static/media/new_relic_logo.88cd1ccfaf4fb8138de5b10dd39e1dcf.svg",
     "static/media/git-logo.svg": "/my-portfolio/static/media/git-logo.9015862e8d688504b1c38a469ca9aa3d.svg",
     "static/media/gitlab-logo.svg": "/my-portfolio/static/media/gitlab-logo.e20872deb8467e83fb4ba98e908e2f08.svg",
-    "static/media/notion-logo.svg": "/my-portfolio/static/media/notion-logo.18259d2f359cb09fa44ec94ddc0c6fce.svg",
-    "static/media/dotnet-logo.svg": "/my-portfolio/static/media/dotnet-logo.b4a1f214e0667e233ce63e039e7066ca.svg",
+    "static/media/notion-logo.svg": "/my-portfolio/static/media/notion-logo.4c66a6613f713171aa504b4605c753a0.svg",
+    "static/media/dotnet-logo.svg": "/my-portfolio/static/media/dotnet-logo.18c10050cdc904fbb0819ae44b69d91f.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.4f9c5972.css.map": "/my-portfolio/static/css/main.4f9c5972.css.map",
-    "main.d66cc05d.js.map": "/my-portfolio/static/js/main.d66cc05d.js.map",
+    "main.3bcd0660.css.map": "/my-portfolio/static/css/main.3bcd0660.css.map",
+    "main.f3a68380.js.map": "/my-portfolio/static/js/main.f3a68380.js.map",
     "787.0bfccc2a.chunk.js.map": "/my-portfolio/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f9c5972.css",
-    "static/js/main.d66cc05d.js"
+    "static/css/main.3bcd0660.css",
+    "static/js/main.f3a68380.js"
   ]
 }
