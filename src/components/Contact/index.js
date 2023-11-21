@@ -1,6 +1,5 @@
 import { useRef } from 'react'
 import './index.scss'
-import Loader from 'react-loaders'
 import emailjs from '@emailjs/browser'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFaceGrinWink } from '@fortawesome/free-regular-svg-icons'
@@ -26,7 +25,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className="container contact-page">
+            <div className="contact-page">
                 <div className='text-zone'>
                     <div>
                         <h1>
@@ -57,10 +56,8 @@ const Contact = () => {
                                 </li>
                             </ul>
                         </form>
-
                     </div>
                 </div>
-                <Loader type='ball-zig-zag' />
             </div>
         </>
     )
