@@ -12,6 +12,10 @@ h1 {
   font-size: clamp(3.5rem, 3vw, 6rem);
 }
 
+html, body {
+  overflow-x:hidden 
+}
+
 @media screen and (max-width: 600px) {
   .page {
     margin-left: 3vw;

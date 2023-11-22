@@ -1,0 +1,32 @@
+.dialog-button {
+  color: #ffd700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  background: 0 0;
+  text-transform: uppercase;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+
+  &:hover {
+    background: #ffd700;
+    color: #333;
+  }
+}
+
+section {
+  line-height: 1rem;
+  font-size: 110%;
+}
+
+section:nth-of-type(1){
+  margin-bottom: 10%;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: #115173;
+}
