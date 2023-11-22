@@ -3,6 +3,7 @@ import './index.scss'
 import emailjs from '@emailjs/browser'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFaceGrinWink } from '@fortawesome/free-regular-svg-icons'
+import VisaPopup from '../VisaPopup'
 
 const Contact = () => {
     const refForm = useRef();
@@ -53,6 +54,7 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <input type='submit' className='flat-button' value='SEND' />
+                                    <VisaPopup/>
                                 </li>
                             </ul>
                         </form>
