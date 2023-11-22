@@ -6,7 +6,6 @@
 
     h1 {
         color: #ffd700;
-        font-size: 56px;
         line-height: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -22,7 +21,7 @@
 
 .skill-card {
     margin: 2% 1%;
-    width: 20%;
+    width: clamp(25rem, 20%, 35rem);
     background-color: rgb(9, 57, 83);
 }
 
