@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10% 10% 10% 5%;
+    margin: 10% 5% 10% 5%;
 
     .profile-photo {
-        width: 12%;
+        width: clamp(10rem, 12vw, 14rem);
         height: auto;
     }
 
@@ -16,7 +16,6 @@
 
     h1 {
         color: #fff;
-        font-size: 56px;
         line-height: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -76,7 +75,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .home-page .profile-photo {
         width: 30%;
     }
