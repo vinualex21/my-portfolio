@@ -23,6 +23,26 @@
     margin: 2% 1%;
     width: clamp(25rem, 20%, 35rem);
     background-color: rgb(9, 57, 83);
+    animation: fadeIn 1s backwards;
+}
+
+@for $i from 1 to 12 {
+    .skill-card:nth-child(#{$i}) {
+        animation-delay: $i * 0.25s;
+    }
+}
+
+.skill-card-item > div {
+    transition: scale 350ms ease,
+        opacity 350ms linear;
+}
+
+.skill-card-item > div:hover {
+    scale: 1.1;
+}
+
+.skill-card-item:has(div:hover) > div:not(:hover) {
+    opacity: .7;
 }
 
 .skill-card-content {
