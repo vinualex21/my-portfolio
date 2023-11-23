@@ -10,6 +10,7 @@
 
 h1 {
   font-size: clamp(3.5rem, 3vw, 6rem);
+  animation: fadeIn 1s backwards;
 }
 
 html, body {
