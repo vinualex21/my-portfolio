@@ -9,6 +9,10 @@ import Skills from './components/Skills';
 import Skillset from './components/Skillset';
 import {Route, Routes, useLocation} from 'react-router-dom';
 import { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-ENZVKZTMM5";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   const { pathname } = useLocation();
@@ -16,6 +20,10 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <>
