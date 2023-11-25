@@ -29,7 +29,7 @@ const Projects = () => {
                 <h4 className="vertical-timeline-element-subtitle">{project.location}</h4>
                 {
                   project.details.map((detail, i) => (
-                    <p>- {detail}</p>
+                    <p key={i}>- {detail}</p>
                   ))
                 }
               </VerticalTimelineElement>

@@ -26,7 +26,7 @@ const Experience = () => {
               <h4 className="vertical-timeline-element-subtitle">{exp.location}</h4>
               {
                 exp.details.map((detail, i) => (
-                  <p>- {detail}</p>
+                  <p key={i}>- {detail}</p>
                 ))
               }
             </VerticalTimelineElement>
