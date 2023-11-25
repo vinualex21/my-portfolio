@@ -15,15 +15,22 @@ const TRACKING_ID = "G-ENZVKZTMM5";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  const { pathname } = useLocation();
+  const location = useLocation();
 
+  useEffect(() => {
+    window.gtag("event", "page_view", {
+      page_path: location.pathname + location.search + location.hash,
+      page_search: location.search,
+      page_hash: location.hash,
+    });
+
+    console.log(location.pathname + location.search + location.hash);
+
+  }, [location]);
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
 
   return (
     <>
