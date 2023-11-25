@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.6e932863.css",
-    "main.js": "/my-portfolio/static/js/main.67ea1791.js",
+    "main.js": "/my-portfolio/static/js/main.a970aaa9.js",
     "static/js/787.0bfccc2a.chunk.js": "/my-portfolio/static/js/787.0bfccc2a.chunk.js",
     "static/media/profile-photo.jpg": "/my-portfolio/static/media/profile-photo.db337c9b9487ee331ad3.jpg",
     "static/media/ruby-logo.png": "/my-portfolio/static/media/ruby-logo.f4acf84ed3ea044805e2.png",
@@ -31,14 +31,14 @@
     "static/media/git-logo.svg": "/my-portfolio/static/media/git-logo.9015862e8d688504b1c38a469ca9aa3d.svg",
     "static/media/gitlab-logo.svg": "/my-portfolio/static/media/gitlab-logo.e20872deb8467e83fb4ba98e908e2f08.svg",
     "static/media/notion-logo.svg": "/my-portfolio/static/media/notion-logo.4c66a6613f713171aa504b4605c753a0.svg",
-    "static/media/dotnet-logo.svg": "/my-portfolio/static/media/dotnet-logo.18c10050cdc904fbb0819ae44b69d91f.svg",
     "index.html": "/my-portfolio/index.html",
+    "static/media/dotnet-logo.svg": "/my-portfolio/static/media/dotnet-logo.18c10050cdc904fbb0819ae44b69d91f.svg",
     "main.6e932863.css.map": "/my-portfolio/static/css/main.6e932863.css.map",
-    "main.67ea1791.js.map": "/my-portfolio/static/js/main.67ea1791.js.map",
+    "main.a970aaa9.js.map": "/my-portfolio/static/js/main.a970aaa9.js.map",
     "787.0bfccc2a.chunk.js.map": "/my-portfolio/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e932863.css",
-    "static/js/main.67ea1791.js"
+    "static/js/main.a970aaa9.js"
   ]
 }
