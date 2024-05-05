@@ -11,9 +11,6 @@ const Sidebar = () => {
                 <NavLink exact="true" activeclassname="active" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
                 </NavLink>
-                {/* <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                    <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-                </NavLink> */}
                 <NavLink exact="true" activeclassname="active" className="experience-link" to="/experience">
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
                 </NavLink>
@@ -23,9 +20,9 @@ const Sidebar = () => {
                 <NavLink exact="true" activeclassname="active" className="skills-link" to="/skills">
                     <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
                 </NavLink>
-                {/* <NavLink exact="true" activeclassname="active" className="skillset-link" to="/skillset">
-                    <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
-                </NavLink> */}
+                <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+                    <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                </NavLink>
                 <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>

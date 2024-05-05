@@ -257,5 +257,82 @@
         "AWS CloudWatch"
       ]
     }
+  ],
+  "courses": [
+    {
+      "title": "Advanced React",
+      "provider": "Meta",
+      "platform": "Coursera",
+      "date": "Nov 2023",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/B87UK2ESCHCC"
+    },
+    {
+      "title": "React Basics",
+      "provider": "Meta",
+      "platform": "Coursera",
+      "date": "Nov 2023",
+      "url": "https://www.coursera.org/account/accomplishments/verify/CPV6UJC5NQ94"
+    },
+    {
+      "title": "HTML and CSS in Depth",
+      "provider": "Meta",
+      "platform": "Coursera",
+      "date": "Nov 2023",
+      "url": "https://www.coursera.org/account/accomplishments/verify/LXZKJMUXGLB5"
+    },
+    {
+      "title": "Version Control",
+      "provider": "Meta",
+      "platform": "Coursera",
+      "date": "Oct 2023",
+      "url": "https://www.coursera.org/account/accomplishments/verify/UZ6UG8939K2E"
+    },
+    {
+      "title": "Programming with JavaScript",
+      "provider": "Meta",
+      "platform": "Coursera",
+      "date": "Oct 2023",
+      "url": "https://www.coursera.org/account/accomplishments/verify/565ZG8R29KF9"
+    },
+    {
+      "title": "Introduction to Front-End Development",
+      "provider": "Meta",
+      "platform": "Coursera",
+      "date": "Oct 2023",
+      "url": "https://www.coursera.org/account/accomplishments/verify/4AJ6MTK5YBTS"
+    },
+    {
+      "title": "Full Modern React Tutorial",
+      "provider": "Net Ninja",
+      "platform": "YouTube",
+      "date": "Sep 2023",
+      "url": "https://youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&si=zffUhSXJlFKn8wqm"
+    }
+  ],
+  "self_development": [
+    {
+      "title": ".NET Rocks",
+      "provider": "Carl Franklin",
+      "platform": "Spotify",
+      "url": "https://open.spotify.com/show/5tz9eGgXtNHmq3WVD3EwYx"
+    },
+    {
+      "title": "Modern Wisdom",
+      "provider": "Chris Williamson",
+      "platform": "Spotify",
+      "url": "https://open.spotify.com/show/0XrOqvxlqQI6bmdYHuIVnr"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Kulfi Band",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@kulfiband9303"
+    },
+    {
+      "title": "Cooking",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/master_of_naan/"
+    }
   ]
 }

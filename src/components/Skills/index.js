@@ -1,7 +1,7 @@
+import './skills.scss';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { StyledEngineProvider } from "@mui/material";
-import './index.scss';
 import { Chip } from '@mui/material';
 import data from '../../data/data.json';
 
