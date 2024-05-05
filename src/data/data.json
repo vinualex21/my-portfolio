@@ -1,6 +1,17 @@
 {
   "experience": [
     {
+      "title": "Software Engineer",
+      "type": "work",
+      "organization": "Unity Infotech",
+      "location": "Kochi, India",
+      "start_date": "Feb 2024",
+      "end_date": "Pesent",
+      "details": [
+        "Developed instant payment solutions for banks in the middle east as per the National Payment Systems Strategy"
+      ]
+    },
+    {
       "title": "Software Engineer - III",
       "type": "work",
       "organization": "On The Beach Ltd.",
@@ -79,6 +90,23 @@
   ],
   "projects": [
     {
+      "name": "NPSS Base",
+      "company": "Unity Infotech",
+      "location": "Kochi, India",
+      "start_date": "Feb 2024",
+      "end_date": "Present",
+      "details": [
+        "Developed core banking web application with instant payment and batch transaction capabilities in compliance with ISO2022"
+      ],
+      "technologies": [
+        "ASP.NET Core MVC",
+        ".NET 7",
+        "C#",
+        "MS SQL Server",
+        "Azure DevOps"
+      ]
+    },
+    {
       "name": "Portfolio",
       "company": "Personal Project",
       "location": "York, UK",
@@ -150,7 +178,7 @@
       "technologies": [
         "ASP.NET",
         "VB",
-        "MSSQL"
+        "MS SQL Server"
       ]
     },
     {
@@ -207,7 +235,7 @@
       "technologies": [
         "MySQL",
         "Oracle",
-        "MSSQL"
+        "MS SQL Server"
       ]
     },
     {
