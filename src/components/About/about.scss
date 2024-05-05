@@ -1,0 +1,98 @@
+.about-page {
+    margin: 0 5% 10% 5%;
+}
+
+.about-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+    h1 {
+        color: #ffd700;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+}
+
+.about-page h2 {
+    font-size: clamp(2.5rem, 1.5vw, 4rem);
+    animation: fadeIn 1s backwards;
+    color: azure;
+    margin-bottom: 1vh;
+}
+
+.text-zone {
+    margin-bottom: 10vh;
+    p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+}
+
+.carousel {
+    margin-right: auto;
+    margin-left: -1vw;
+    text-align: center;
+
+    h3 {
+        color: azure;
+    }
+
+    .carousel-card {
+        background-color: rgb(9, 57, 83);
+        text-wrap: nowrap;
+        position: relative;
+        box-sizing: border-box;
+        border: rgb(9, 57, 83) solid;
+        margin: 2px 3px;
+        padding: 5% 0;
+
+        &:hover {
+            border-color: #2c6a9d;
+            scale: 1.02;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .carousel-date {
+            letter-spacing: 1px;
+            color: azure;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            opacity: 70%;
+        }
+
+        .carousel-platform {
+            letter-spacing: 1px;
+            color: #ffd700;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .carousel-provider {
+            letter-spacing: 1px;
+            color: rgb(50, 184, 237);
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        scale: 0.8;
+    }
+}
