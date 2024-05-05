@@ -25,9 +25,6 @@ const VisaPopup = (props) => {
 
   return (
     <React.Fragment>
-      {/* <Button variant="outlined" className='dialog-button' onClick={handleClickOpen}>
-        Slide in alert dialog
-      </Button> */}
       <input type='button' className="dialog-button" value='See Visa Requirements' onClick={handleClickOpen} />
       <Dialog
         open={open}
@@ -41,8 +38,6 @@ const VisaPopup = (props) => {
           <DialogContentText id="alert-dialog-slide-description">
             <section>
               <p><b>Nationality:</b> Indian</p>
-              <p><b>Current visa:</b> UK Graduate visa</p>
-              <p><b>Expiry:</b> February 2024</p>
             </section>
             <section>
               <p>* Please check Right to Work requirements in the country of interest.</p>
